@@ -1,0 +1,66 @@
+/*公用样式的定义*/
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  height: 100%;
+  width: 100%;
+  outline: 0;
+  margin: 0;
+  padding: 0;
+  -webkit-text-size-adjust: none;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  font: 16px/1.5 'Microsoft Yahei', Verdana, Arial;
+  -webkit-font-smoothing: antialiased;
+  -webkit-user-select: none;
+  font-weight: 100;
+}
+
+a:link, a:active, a:hover, a:visited {
+  text-decoration: none;
+  outline: none;
+}
+
+input, textarea, button {
+  outline: none;
+  resize: none;
+  background: none;
+  border: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+ul, li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+@font-face {
+  font-family: 'iconfont';
+  src: url('//at.alicdn.com/t/font_1467874407_2092445.eot'); /* IE9*/
+  src: url('//at.alicdn.com/t/font_1467874407_2092445.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('//at.alicdn.com/t/font_1467874407_2092445.woff') format('woff'), /* chrome、firefox */
+  url('//at.alicdn.com/t/font_1467874407_2092445.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+  url('//at.alicdn.com/t/font_1467874407_2092445.svg#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+.iconfont {
+  font-family: "iconfont";
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale;
+}
+.myclear{
+  clear: both;
+}
+
+
