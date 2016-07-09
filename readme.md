@@ -5,7 +5,7 @@
 - sourceMap,方便调试
 - CSS 样式独立文件
 - 支持ES6
-- 支持SASS
+- 支持sass
 - 解决了数据请求跨域问题
 
 #### 技术栈
@@ -28,6 +28,7 @@ npm install webpack -g
 git clone git@github.com:tianyuwu/Vue-SPA-demo.git
 ```
 4. 安装项目依赖
+进行项目根目录,执行下面命令
 ```
 npm install
 ```
@@ -36,6 +37,7 @@ npm install
 ```
 npm run dev
 ```
+然后打开浏览器访问http://localhost:8080
 
 #### 打包发布
 win平台
