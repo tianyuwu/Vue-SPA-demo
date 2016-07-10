@@ -11,7 +11,7 @@
     }
 
     .btn-small {
-        background-color: black;
+        background-color: green;
         width: 200px;
         height: 40px;
     }

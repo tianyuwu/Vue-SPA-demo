@@ -5,11 +5,11 @@ var config = require('./webpack.config.js');
 config.entry.unshift('webpack-dev-server/client?http://localhost:8080', "webpack/hot/dev-server");
 config.plugins.push(new webpack.HotModuleReplacementPlugin());
 
-// 这里配置：请求http://localhost:9090/api，
-// 相当于通过本地node服务代理请求后台服务器了http://cnodejs.org/api
+// 这里配置：请求http://localhost:8080/api，
+// 相当于通过本地node服务代理请求后台服务器了http://cn.vuejs.org/api
 var proxy = [{
-    path: "/app/*",
-    target: "http://www.shixiseng.com",
+    path: "/api/*",
+    target: "http://cn.vuejs.org/",
     secure: false
 }]
 
