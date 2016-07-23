@@ -1,4 +1,4 @@
-##webpack+vuejs实现一个中大型单页移动应用
+<a href=""></a>##webpack+vuejs实现一个中大型单页移动应用
 #### 项目特点
 - 热加载/热替换（hotreload)
 - 构建时文件带hash，方便版本控制
@@ -31,6 +31,31 @@ git clone git@github.com:tianyuwu/Vue-SPA-demo.git
 进行项目根目录,执行下面命令
 ```
 npm install
+```
+
+
+#### 目录结构
+```
+├── index.html
+├── node_modules
+├── package.json
+├── readme.md
+├── server.js
+├── src
+│	├── app.vue
+│	├── assets
+│	│   ├── css
+│	│   ├── img
+│	│   └── js
+│	├── components
+│	│   └── button.vue
+│	├── filters.js
+│	├── index.tpl
+│	├── main.js
+│	├── routers.js
+│	└── views
+│	    └── index.vue
+└── webpack.config.js
 ```
 
 #### 开发

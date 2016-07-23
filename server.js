@@ -13,7 +13,6 @@ var proxy = [{
     secure: false
 }]
 
-
 //启动服务
 var app = new WebpackDevServer(webpack(config), {
     publicPath: config.output.publicPath,
