@@ -36,26 +36,26 @@ npm install
 
 #### 目录结构
 ```
-├── index.html
-├── node_modules
+├── index.html                 入口html
+├── node_modules               node依赖包目录
 ├── package.json
-├── readme.md
-├── server.js
+├── readme.md     
+├── server.js                  WebpackDevServer，本地开发用的服务器
 ├── src
-│	├── app.vue
-│	├── assets
+│	├── app.vue                根组件
+│	├── assets                 静态资源目录
 │	│   ├── css
 │	│   ├── img
 │	│   └── js
-│	├── components
+│	├── components             组件目录
 │	│   └── button.vue
-│	├── filters.js
-│	├── index.tpl
-│	├── main.js
-│	├── routers.js
-│	└── views
+│	├── filters.js             过滤器
+│	├── index.tpl              html模板
+│	├── main.js                js的入口文件
+│	├── routers.js             路由配置文件
+│	└── views                  页面组件，一个页面对应一个组件
 │	    └── index.vue
-└── webpack.config.js
+└── webpack.config.js          webpack配置文件
 ```
 
 #### 开发
